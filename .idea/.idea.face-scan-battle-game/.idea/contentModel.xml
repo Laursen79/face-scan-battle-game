@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\simon\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\simon\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_face-scan-battle-game.1263732670.00" t="ExcludeRecursive" />
+    <e p="E:\Unity\face-scan-battle-game" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="BizulkaProduction" t="Include">
+          <e p="Stickman" t="Include">
+            <e p="README.txt" t="Include" />
+          </e>
+        </e>
+        <e p="BzKovSoft" t="Include">
+          <e p="ActiveRagdoll" t="Include">
+            <e p="BzBalancerDefault.cs" t="Include" />
+            <e p="BzBoneConfiguration.cs" t="Include" />
+            <e p="BzKovSoft.ActiveRagdoll.asmdef" t="Include" />
+            <e p="BzRagdoll.cs" t="Include" />
+            <e p="ControllerMoveType.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="BzKovSoft.ActiveRagdoll.Editor.asmdef" t="Include" />
+              <e p="BzRagdollEditor.cs" t="Include" />
+            </e>
+            <e p="FixedLimb.cs" t="Include" />
+            <e p="FollowingLimb.cs" t="Include" />
+            <e p="IBzBalancer.cs" t="Include" />
+            <e p="IBzRagdoll.cs" t="Include" />
+            <e p="RagdollBehaviours" t="Include">
+              <e p="GetUpAnimationBehaviour.cs" t="Include" />
+              <e p="IRagdollBehaviour.cs" t="Include" />
+            </e>
+            <e p="RigidbodyTurnoffType.cs" t="Include" />
+            <e p="Samples" t="Include">
+              <e p="Bullet.cs" t="Include" />
+              <e p="BzKovSoft.ActiveRagdoll.Samples.asmdef" t="Include" />
+              <e p="BzPersonControllerAI.cs" t="Include" />
+              <e p="BzPersonControllerBase.cs" t="Include" />
+              <e p="BzPersonControllerTPC.cs" t="Include" />
+              <e p="BzPersonIK.cs" t="Include" />
+              <e p="Carousel.cs" t="Include" />
+              <e p="MoveCamera.cs" t="Include" />
+              <e p="Shotgun.cs" t="Include" />
+            </e>
+            <e p="SkeletonDrawer.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Laursen" t="Include">
+          <e p="Singleton.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CameraController.cs" t="Include" />
+          <e p="CameraTarget.cs" t="Include" />
+          <e p="CameraTargetManager.cs" t="Include" />
+          <e p="Gamemanager.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="IDamageable.cs" t="Include" />
+          </e>
+          <e p="Player.cs" t="Include" />
+        </e>
+      </e>
+      <e p="BzKovSoft.ActiveRagdoll.csproj" t="IncludeRecursive" />
+      <e p="BzKovSoft.ActiveRagdoll.Editor.csproj" t="IncludeRecursive" />
+      <e p="BzKovSoft.ActiveRagdoll.Samples.csproj" t="IncludeRecursive" />
+      <e p="face-scan-battle-game.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

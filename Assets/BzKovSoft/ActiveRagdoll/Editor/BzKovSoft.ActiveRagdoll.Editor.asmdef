@@ -1,0 +1,16 @@
+{
+    "name": "BzKovSoft.ActiveRagdoll.Editor",
+    "references": [
+        "BzKovSoft.ActiveRagdoll"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
