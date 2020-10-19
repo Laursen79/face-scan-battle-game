@@ -70,7 +70,7 @@ namespace Battle
                 x = -temp.z,
                 z = temp.x
             };
-            return axisMid + direction * (cameraDistance + distanceFromTarget) + Vector3.up * height;
+            return axisMid + direction * -(cameraDistance + distanceFromTarget) + Vector3.up * height;
         }
 
         private void Rotate(Vector3 midpoint)

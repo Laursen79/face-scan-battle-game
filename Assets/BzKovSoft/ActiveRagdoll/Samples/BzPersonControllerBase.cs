@@ -4,7 +4,7 @@ using UnityEngine;
 namespace BzKovSoft.ActiveRagdoll.Samples
 {
 	[DisallowMultipleComponent]
-	public abstract class BzPersonControllerBase : MonoBehaviour
+	public abstract class  BzPersonControllerBase : MonoBehaviour
 	{
 		[SerializeField]
 		float _jumpForce = 4f;

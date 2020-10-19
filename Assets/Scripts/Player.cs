@@ -2,12 +2,21 @@
 using System.Collections.Generic;
 using Battle;
 using UnityEngine;
+using UnityEngine.XR;
 
 namespace Battle
 {
     [RequireComponent(typeof(CharacterController))]
     public class Player : CameraTarget
     {
+        [SerializeField] private int playerID;
+        [SerializeField] private float speed = 2.0f;
+
+        [SerializeField] private KeyCode forward;
+        [SerializeField] private KeyCode back;
+        [SerializeField] private KeyCode right;
+        [SerializeField] private KeyCode left;
+
         private CharacterController _controller;
 
         protected override void Awake()
@@ -25,7 +34,15 @@ namespace Battle
         // Update is called once per frame
         void Update()
         {
-            _controller.SimpleMove(new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Horizontal")));
+            var movement = Vector3.zero;
+            int fwd, bck, rgt, lft;
+            
+            fwd = Input.GetKey(forward) ? 1 : 0;
+            bck = Input.GetKey(back) ? 1 : 0;
+            rgt = Input.GetKey(right) ? 1 : 0;
+            lft = Input.GetKey(left) ? 1 : 0;
+
+            _controller.SimpleMove(new Vector3(rgt - lft, 0, fwd - bck) * speed);
         }
     }
     

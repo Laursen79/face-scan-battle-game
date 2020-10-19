@@ -18,6 +18,11 @@ namespace Battle
             startRound.Invoke();
         }
 
+        private void Awake()
+        {
+            
+        }
+
         void Start()
         {
 
@@ -28,7 +33,9 @@ namespace Battle
         {
         
         }
-
+        
+        
+        
         PlayerToken CreatePlayerToken(string str)
         {
             var encoding = new System.Text.ASCIIEncoding ();
@@ -47,6 +54,12 @@ namespace Battle
         {
             PlayerPrefs.SetInt(id, score);
             PlayerPrefs.Save();
+        }
+        
+        ///USE WITH CAUTION. Clears All scores.
+        void ResetAllScores() 
+        {
+            PlayerPrefs.DeleteAll();
         }
     }
     [Serializable]
