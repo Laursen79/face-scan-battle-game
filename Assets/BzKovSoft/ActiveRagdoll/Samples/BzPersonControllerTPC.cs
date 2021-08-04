@@ -1,13 +1,15 @@
-﻿using UnityEngine;
+﻿using Battle.BzKovSoft.ActiveRagdoll;
+using UnityEngine;
 
 namespace BzKovSoft.ActiveRagdoll.Samples
 {
 	public class BzPersonControllerTPC : BzPersonControllerBase
 	{
+		[SerializeField] private Controller controller;
 		private void Update()
 		{
-			float h = Input.GetAxis("Horizontal");
-			float v = Input.GetAxis("Vertical");
+			float h = controller.Movement.x;
+			float v = controller.Movement.y;
 			Transform camera = Camera.main.transform;
 
 			Vector3 axisDir = new Vector3(h, 0, v);
@@ -21,7 +23,7 @@ namespace BzKovSoft.ActiveRagdoll.Samples
 			currDir.Normalize();
 
 			bool jumpPressed = Input.GetKeyDown(KeyCode.Space);
-			bool attackPressed = Input.GetKeyDown(KeyCode.Mouse0);
+			bool attackPressed = Input.GetKeyDown(KeyCode.B);
 			bool connectPressed = Input.GetKeyDown(KeyCode.Q);
 			bool ragdollPressed = Input.GetKeyDown(KeyCode.R);
 
